@@ -7,7 +7,7 @@
 </head>
 
 
-<body>
+<body id= "body-id" style="background-color: white;">
     <title> hw-03</title>
     <h1 class="centered"> hw-03: Interactive Webpage, and Marks & Channels</h1>
     <div class="row">
@@ -17,6 +17,11 @@
             </div>
             <div> 
                 <img src="../hw-03-sean-and-john/img/vis2.png" alt= "vis2"></img>
+            </div>
+            <div> 
+                <img src="../hw-03-sean-and-john/img/custom_vis.png" alt= "vis3" 
+                width="600" 
+                height="300"></img>
             </div>
         </div>
         <div class="column">
@@ -104,9 +109,70 @@
 
             </div>
 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div>
+                <h2>Marks</h2>
+                    <ul>
+                        <li>Each area (bar)</li>
+                    </ul>
+                <h2>Channels</h2>
+                    <ul>
+                        <li>Horizontal Position
+                            <ul>
+                                <li>Bars horiztonal possition differentiates the movie that they represent</li>
+                                <li>This is a good choice because different titles can easily be identified by moving along the x-axis</li>
+                            </ul>
+                        </li>
+                        <li>Vertical Position
+                            <ul>
+                                <li>Bars vertical possition represent the number of hours the movie was viewed within 28 days of release on Netflix</li>
+                                <li>This is a good choice because it is easy to compare the height of bars and estimate the viewing hours</li>
+                            </ul>
+                        </li>
+                        <li>Color
+                            <ul>
+                                <li>The color of the bar indicates wether the movie is an English or non-English title</li>
+                                <li>Red bars are English titles and blue bars are non-English titles</li>
+                            </ul>
+                        </li>
+                    </ul>
+                <h2>Colormap</h2>
+                    <ul>
+                        <li>The colormap for this visualization is categorical and differentiates between English and non-English titles</li>
+                        <li>This is a good choice of color map as the categorical data can easily be differetiated since the hues are very different</li>
+                    </ul>
+            </div>
+
         </div>
     </div>
-
+    <h1 class="centered">Acknowledgements</h1>
+    <div>
+        <ul>
+            <li>https://top10.netflix.com/</li>
+            <li>https://www.geeksforgeeks.org/html-introduction/?ref=lbp</li>
+            <li>Marks and Channels slides</li>
+        </ul>
+    </div>
+    <button type="button" onclick="buttonClicked()">SWITCH DARK/LIGHT MODE</button>
+    <script src="main.js"></script>
 </body>
 
 </html>
